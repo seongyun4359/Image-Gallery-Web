@@ -1,11 +1,12 @@
-import React from 'react'
+import styles from "./header.module.scss";
 
 function Header() {
-  return (
-    <div>
-      
-    </div>
-  )
+    return (
+        <header className={styles.header}>
+            <div></div>
+            <div></div>
+        </header>
+    );
 }
 
-export default Header
+export { Header };
