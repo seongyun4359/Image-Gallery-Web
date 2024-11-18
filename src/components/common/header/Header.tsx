@@ -8,7 +8,7 @@ function Header() {
         <header className={styles.header}>
             <div className={styles[`header__logo-box`]}>
                 <Link to={"/bookmark"}>
-                    <img src="src/assets/logo.svg" alt="" className={styles[`header__logo-box__logo`]} />
+                    <img src="/assets/logo.svg" alt="" className={styles[`header__logo-box__logo`]} />
                 </Link>
             </div>
             <div className={styles[`header__user-box`]}>
@@ -25,8 +25,8 @@ function Header() {
                 </Avatar>
                 {/* 유저 닉네임 & 이메일 */}
                 <div className="flex items-center gap-1">
-                    <small className="text-base font-medium leading-none">9Diin</small>&middot;
-                    <small className="text-base font-medium leading-none">9Diin@gmail.com</small>
+                    <small className="text-sm font-medium leading-none">9Diin</small>&middot;
+                    <small className="text-sm font-medium leading-none">9Diin@gmail.com</small>
                 </div>
             </div>
         </header>
