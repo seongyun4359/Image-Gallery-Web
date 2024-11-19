@@ -25,10 +25,11 @@ function Header() {
                     <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
                     <AvatarFallback>CN</AvatarFallback>
                 </Avatar>
+                
                 {/* 유저 닉네임 & 이메일 */}
                 <div className="flex items-center gap-1">
-                    <small className="text-sm font-medium leading-none">9Diin</small>&middot;
-                    <small className="text-sm font-medium leading-none">9Diin@gmail.com</small>
+                    <small className="text-sm font-medium leading-none">Seongyun</small>&middot;
+                    <small className="text-sm font-medium leading-none">1112csy@naver.com</small>
                 </div>
             </div>
         </header>

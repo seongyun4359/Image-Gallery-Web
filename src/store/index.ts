@@ -14,6 +14,7 @@ export const fetchApi = async (searchValue: string, page: number) => {
         return res; // 필요한 데이터만 반환
     } catch (error) {
         console.error("API 호출 중 오류 발생:", error);
+        
         throw error; // 오류를 던져서 나중에 처리할 수 있게 함
     }
 };
